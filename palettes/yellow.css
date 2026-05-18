@@ -1,0 +1,31 @@
+/* Universal Palette: 黄 (yellow)
+ * Usage: var(--yellow-500), var(--yellow-100), etc.
+ */
+
+:root {
+  --yellow-50: #F7F6E8;
+  --yellow-100: #EFEDD2;
+  --yellow-200: #DFDAA9;
+  --yellow-300: #C5BE74;
+  --yellow-400: #AA9E34;
+  --yellow-500: #908200;
+  --yellow-600: #726500;
+  --yellow-700: #544900;
+  --yellow-800: #393100;
+  --yellow-900: #1F1B00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --yellow-50: #141205;
+    --yellow-100: #1E1B04;
+    --yellow-200: #2E2A00;
+    --yellow-300: #423C00;
+    --yellow-400: #5C5200;
+    --yellow-500: #7A6E00;
+    --yellow-600: #9C8F00;
+    --yellow-700: #BFB345;
+    --yellow-800: #D9D182;
+    --yellow-900: #EEE9B7;
+  }
+}

@@ -1,0 +1,31 @@
+/* Universal Palette: 橙 (orange)
+ * Usage: var(--orange-500), var(--orange-100), etc.
+ */
+
+:root {
+  --orange-50: #FFF2EB;
+  --orange-100: #FFE5D7;
+  --orange-200: #FCCBB3;
+  --orange-300: #EDA885;
+  --orange-400: #D98253;
+  --orange-500: #C16229;
+  --orange-600: #9E4502;
+  --orange-700: #772F00;
+  --orange-800: #511F00;
+  --orange-900: #2E1102;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --orange-50: #1B0E08;
+    --orange-100: #291409;
+    --orange-200: #401E0B;
+    --orange-300: #5B2B10;
+    --orange-400: #7E3C13;
+    --orange-500: #A45120;
+    --orange-600: #CD703B;
+    --orange-700: #F29563;
+    --orange-800: #FFBA94;
+    --orange-900: #FFDAC1;
+  }
+}

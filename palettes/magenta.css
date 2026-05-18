@@ -1,0 +1,31 @@
+/* Universal Palette: 洋红 (magenta)
+ * Usage: var(--magenta-500), var(--magenta-100), etc.
+ */
+
+:root {
+  --magenta-50: #FCF1FC;
+  --magenta-100: #F8E4F8;
+  --magenta-200: #EEC9F0;
+  --magenta-300: #DAA6DC;
+  --magenta-400: #C27FC6;
+  --magenta-500: #A960AE;
+  --magenta-600: #88448D;
+  --magenta-700: #652E69;
+  --magenta-800: #451F48;
+  --magenta-900: #271028;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --magenta-50: #170E18;
+    --magenta-100: #241425;
+    --magenta-200: #371E39;
+    --magenta-300: #4F2A51;
+    --magenta-400: #6D3A71;
+    --magenta-500: #8F5093;
+    --magenta-600: #B56DB9;
+    --magenta-700: #D992DD;
+    --magenta-800: #F0B7F2;
+    --magenta-900: #FDD8FF;
+  }
+}

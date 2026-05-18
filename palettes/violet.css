@@ -1,0 +1,31 @@
+/* Universal Palette: 紫 (violet)
+ * Usage: var(--violet-500), var(--violet-100), etc.
+ */
+
+:root {
+  --violet-50: #F6F3FF;
+  --violet-100: #EDE7FF;
+  --violet-200: #DBCFFE;
+  --violet-300: #C1AEF1;
+  --violet-400: #A48ADF;
+  --violet-500: #8A6CC9;
+  --violet-600: #6C4FA6;
+  --violet-700: #4F377D;
+  --violet-800: #352555;
+  --violet-900: #1E1431;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --violet-50: #130F1B;
+    --violet-100: #1D162B;
+    --violet-200: #2C2243;
+    --violet-300: #3F305F;
+    --violet-400: #584383;
+    --violet-500: #745AAB;
+    --violet-600: #9579D4;
+    --violet-700: #B89DF8;
+    --violet-800: #D4C0FF;
+    --violet-900: #EADEFF;
+  }
+}

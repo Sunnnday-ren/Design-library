@@ -1,0 +1,31 @@
+/* Universal Palette: 靛 (indigo)
+ * Usage: var(--indigo-500), var(--indigo-100), etc.
+ */
+
+:root {
+  --indigo-50: #F0F5FF;
+  --indigo-100: #E1EBFF;
+  --indigo-200: #C6D7FF;
+  --indigo-300: #A1B8F8;
+  --indigo-400: #7C97E9;
+  --indigo-500: #5E7AD3;
+  --indigo-600: #445CAF;
+  --indigo-700: #2F4285;
+  --indigo-800: #1F2C5B;
+  --indigo-900: #101834;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --indigo-50: #0D111D;
+    --indigo-100: #13192D;
+    --indigo-200: #1D2746;
+    --indigo-300: #2A3764;
+    --indigo-400: #3A4D8B;
+    --indigo-500: #4E66B4;
+    --indigo-600: #6B87DE;
+    --indigo-700: #8EABFF;
+    --indigo-800: #B3CBFF;
+    --indigo-900: #D4E5FF;
+  }
+}

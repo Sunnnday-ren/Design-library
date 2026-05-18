@@ -1,0 +1,31 @@
+/* Universal Palette: 玫瑰 (rose)
+ * Usage: var(--rose-500), var(--rose-100), etc.
+ */
+
+:root {
+  --rose-50: #FFF0F6;
+  --rose-100: #FFE2EE;
+  --rose-200: #FBC7DC;
+  --rose-300: #EBA1C1;
+  --rose-400: #D679A3;
+  --rose-500: #BD5889;
+  --rose-600: #9A3C6B;
+  --rose-700: #73274E;
+  --rose-800: #4F1A35;
+  --rose-900: #2D0E1D;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --rose-50: #1A0D13;
+    --rose-100: #29121C;
+    --rose-200: #3F1B2C;
+    --rose-300: #59273F;
+    --rose-400: #7B3557;
+    --rose-500: #A04973;
+    --rose-600: #C96695;
+    --rose-700: #EE8BB8;
+    --rose-800: #FFB3D5;
+    --rose-900: #FFD5EB;
+  }
+}

@@ -1,0 +1,31 @@
+/* Universal Palette: 蓝 (blue)
+ * Usage: var(--blue-500), var(--blue-100), etc.
+ */
+
+:root {
+  --blue-50: #EBF7FF;
+  --blue-100: #D8EFFF;
+  --blue-200: #B2DEFF;
+  --blue-300: #82C2F3;
+  --blue-400: #4AA4E2;
+  --blue-500: #0A88CC;
+  --blue-600: #0069A8;
+  --blue-700: #004C7F;
+  --blue-800: #003457;
+  --blue-900: #001D32;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --blue-50: #07131C;
+    --blue-100: #071D2B;
+    --blue-200: #062C44;
+    --blue-300: #043E60;
+    --blue-400: #005685;
+    --blue-500: #0372AD;
+    --blue-600: #2C94D6;
+    --blue-700: #5BB9FA;
+    --blue-800: #92D6FF;
+    --blue-900: #C1ECFF;
+  }
+}

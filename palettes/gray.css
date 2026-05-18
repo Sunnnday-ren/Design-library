@@ -1,0 +1,31 @@
+/* Universal Palette: 灰 (gray)
+ * Usage: var(--gray-500), var(--gray-100), etc.
+ */
+
+:root {
+  --gray-50: #F5F5F5;
+  --gray-100: #EBEBEB;
+  --gray-200: #D7D7D7;
+  --gray-300: #BABABA;
+  --gray-400: #9B9B9B;
+  --gray-500: #808080;
+  --gray-600: #636363;
+  --gray-700: #484848;
+  --gray-800: #303030;
+  --gray-900: #1B1B1B;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gray-50: #121212;
+    --gray-100: #1B1B1B;
+    --gray-200: #292929;
+    --gray-300: #3A3A3A;
+    --gray-400: #515151;
+    --gray-500: #6C6C6C;
+    --gray-600: #8C8C8C;
+    --gray-700: #AFAFAF;
+    --gray-800: #CECECE;
+    --gray-900: #E6E6E6;
+  }
+}

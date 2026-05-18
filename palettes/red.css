@@ -1,0 +1,31 @@
+/* Universal Palette: 红 (red)
+ * Usage: var(--red-500), var(--red-100), etc.
+ */
+
+:root {
+  --red-50: #FFF1F0;
+  --red-100: #FFE3E1;
+  --red-200: #FFC7C6;
+  --red-300: #F2A2A1;
+  --red-400: #DE7A7B;
+  --red-500: #C6585D;
+  --red-600: #A23C42;
+  --red-700: #7A272D;
+  --red-800: #531A1E;
+  --red-900: #300E10;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --red-50: #1B0D0D;
+    --red-100: #2B1213;
+    --red-200: #421B1C;
+    --red-300: #5D2729;
+    --red-400: #813538;
+    --red-500: #A8494D;
+    --red-600: #D16769;
+    --red-700: #F78C8D;
+    --red-800: #FFB4B3;
+    --red-900: #FFD6D4;
+  }
+}

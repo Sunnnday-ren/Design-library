@@ -1,0 +1,31 @@
+/* Universal Palette: 天蓝 (sky)
+ * Usage: var(--sky-500), var(--sky-100), etc.
+ */
+
+:root {
+  --sky-50: #E8F9FD;
+  --sky-100: #D2F2FA;
+  --sky-200: #A6E3F2;
+  --sky-300: #6BCBE0;
+  --sky-400: #00AECA;
+  --sky-500: #0094B3;
+  --sky-600: #007492;
+  --sky-700: #00556D;
+  --sky-800: #003A4A;
+  --sky-900: #00202A;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sky-50: #041418;
+    --sky-100: #001F26;
+    --sky-200: #00303B;
+    --sky-300: #004454;
+    --sky-400: #005E74;
+    --sky-500: #007C97;
+    --sky-600: #00A0BE;
+    --sky-700: #16C4E2;
+    --sky-800: #79DFF6;
+    --sky-900: #B5F2FF;
+  }
+}

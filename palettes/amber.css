@@ -1,0 +1,31 @@
+/* Universal Palette: 琥珀 (amber)
+ * Usage: var(--amber-500), var(--amber-100), etc.
+ */
+
+:root {
+  --amber-50: #FEF4E3;
+  --amber-100: #FDE8C7;
+  --amber-200: #F7D192;
+  --amber-300: #E7B04A;
+  --amber-400: #D38B00;
+  --amber-500: #BB6C00;
+  --amber-600: #994E00;
+  --amber-700: #733600;
+  --amber-800: #4E2400;
+  --amber-900: #2C1400;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --amber-50: #1A1001;
+    --amber-100: #281700;
+    --amber-200: #3E2200;
+    --amber-300: #583000;
+    --amber-400: #7A4300;
+    --amber-500: #9F5A00;
+    --amber-600: #C67900;
+    --amber-700: #EB9F00;
+    --amber-800: #FDC357;
+    --amber-900: #FFE0A0;
+  }
+}

@@ -1,0 +1,31 @@
+/* Universal Palette: 绿 (green)
+ * Usage: var(--green-500), var(--green-100), etc.
+ */
+
+:root {
+  --green-50: #ECF9F1;
+  --green-100: #D9F3E2;
+  --green-200: #B4E5C7;
+  --green-300: #85CDA3;
+  --green-400: #4BB27D;
+  --green-500: #02985F;
+  --green-600: #007944;
+  --green-700: #00592E;
+  --green-800: #003C1F;
+  --green-900: #002210;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --green-50: #08150D;
+    --green-100: #072013;
+    --green-200: #06321D;
+    --green-300: #03472A;
+    --green-400: #00623A;
+    --green-500: #00814F;
+    --green-600: #2BA46C;
+    --green-700: #5DC890;
+    --green-800: #94E2B5;
+    --green-900: #C3F4D6;
+  }
+}

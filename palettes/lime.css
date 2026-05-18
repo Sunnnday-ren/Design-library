@@ -1,0 +1,31 @@
+/* Universal Palette: 青柠 (lime)
+ * Usage: var(--lime-500), var(--lime-100), etc.
+ */
+
+:root {
+  --lime-50: #F1F8EB;
+  --lime-100: #E3F0D8;
+  --lime-200: #C9E1B4;
+  --lime-300: #A5C787;
+  --lime-400: #80AB55;
+  --lime-500: #62902B;
+  --lime-600: #477204;
+  --lime-700: #305300;
+  --lime-800: #203800;
+  --lime-900: #111F02;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lime-50: #0E1408;
+    --lime-100: #141E0A;
+    --lime-200: #1E2F0C;
+    --lime-300: #2B4311;
+    --lime-400: #3C5C15;
+    --lime-500: #517A22;
+    --lime-600: #6E9C3D;
+    --lime-700: #92C065;
+    --lime-800: #B7DC96;
+    --lime-900: #D7F0C3;
+  }
+}
